@@ -3694,10 +3694,17 @@ License: For each use you must have a valid license purchased only from above li
         <!--begin::Card toolbar-->
         <div class="card-toolbar">
             <!--begin::Button-->
-            <button type="button" class="btn btn-sm btn-light-primary">
-                <i class="ki-duotone ki-cloud-download fs-3"><span class="path1"></span><span class="path2"></span></i>  
-                Download Report
-            </button>
+           <button type="button" class="btn btn-sm btn-light-primary d-flex align-items-center gap-2 px-3 py-2">
+  <!-- Icon Container -->
+  <div style="background-color: #e0f2fe; width: 32px; height: 32px; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-top: 2px;">
+    <i class="fa-solid fa-cloud" style="color: #93c5fd; font-size: 14px;"></i>
+    <div style="width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 5px solid #3b82f6; margin-top: 2px;"></div>
+  </div>
+
+  <!-- Button Text -->
+  <span style="color: #3b82f6; font-weight: 500;">Download Report</span>
+</button>
+
             <!--end::Button-->
         </div>
         <!--end::Card toolbar-->
