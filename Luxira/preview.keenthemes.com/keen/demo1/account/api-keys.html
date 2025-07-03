@@ -51,7 +51,25 @@ License: For each use you must have a valid license purchased only from above li
   gtag('js', new Date());
   gtag('config', 'UA-37564768-1');
 </script>
-<!--end::Google tag-->        
+<!--end::Google tag--> 
+<script>
+function copyText(button) {
+  // Copy text logic
+  const textToCopy = document.getElementById("copyTarget").value;
+  navigator.clipboard.writeText(textToCopy).then(() => {
+    // Change icon to check
+    button.innerHTML = '<i class="fa-solid fa-check fs-4" style="color: green;"></i>';
+    
+    // Optional: Revert to copy icon after 2 seconds
+    setTimeout(() => {
+      button.innerHTML = '<i class="fa-regular fa-copy fs-4"></i>';
+    }, 2000);
+  }).catch(err => {
+    console.error("Failed to copy: ", err);
+  });
+}
+</script>
+
         <script>
             // Frame-busting to prevent site from being loaded within a frame without permission (click-jacking)
             if (window.top != window.self) {
@@ -3804,8 +3822,12 @@ License: For each use you must have a valid license purchased only from above li
                                 fftt456765gjkkjhi83093985                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -3827,8 +3849,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -3839,8 +3865,12 @@ License: For each use you must have a valid license purchased only from above li
                                 jk076590ygghgh324vd33                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -3862,8 +3892,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -3874,8 +3908,12 @@ License: For each use you must have a valid license purchased only from above li
                                 fftt456765gjkkjhi83093985                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -3897,8 +3935,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -3909,8 +3951,12 @@ License: For each use you must have a valid license purchased only from above li
                                 jk076590ygghgh324vd3568                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -3932,8 +3978,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -3944,8 +3994,12 @@ License: For each use you must have a valid license purchased only from above li
                                 hhet6454788gfg555hhh4                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -3967,8 +4021,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -3979,8 +4037,12 @@ License: For each use you must have a valid license purchased only from above li
                                 fftt456765gjkkjhi83093985                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -4002,8 +4064,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                               <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                             <tr>
@@ -4014,8 +4080,12 @@ License: For each use you must have a valid license purchased only from above li
                                 jk076590ygghgh324vd33                            </td>
                             
                             <td>
-                                <button data-action="copy" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-duotone ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                             
                             <td>
@@ -4037,8 +4107,12 @@ License: For each use you must have a valid license purchased only from above li
                             </td>
 
                             <td>
-                                <button data-action="copy" class="btn btn-color-gray-500 btn-active-color-primary btn-icon btn-sm btn-outline-light">
-                                    <i class="ki-solid ki-copy fs-2"></i>                                </button>
+                                <button id="copyBtn" class="btn btn-active-color-primary btn-color-gray-500 btn-icon btn-sm btn-outline-light" onclick="copyText(this)">
+  <i class="fa-regular fa-copy fs-4"></i>
+</button>
+
+<!-- Hidden text to copy (example) -->
+<input type="text" id="copyTarget" value="This is the text to copy" style="position: absolute; left: -9999px;" />
                             </td>
                         </tr>
                                           
