@@ -19,7 +19,7 @@
             <div
                 class="btn btn-icon btn-active-color-primary w-35px h-35px"
                 id="kt_app_sidebar_mobile_toggle">
-                <i class="ki-duotone ki-abstract-14 fs-1"><span
+                <i class="fa-solid fa-bars fs-2"><span
                         class="path1"></span><span
                         class="path2"></span></i>
             </div>
@@ -99,7 +99,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-basket text-primary fs-1"><span
+                                                        class="fa-solid fa-trash fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -133,7 +133,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-abstract-44 text-info fs-1"><span
+                                                        class="fa-solid fa-diagram-project fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -166,7 +166,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-element-11 text-danger fs-1"><span
+                                                        class="fa-solid fa-boxes-stacked fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -199,7 +199,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-chart-simple text-gray-900 fs-1"><span
+                                                        class="fa-solid fa-chart-simple fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -233,7 +233,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-abstract-39 text-success fs-1"><span
+                                                        class="fa-solid fa-fingerprint fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -265,7 +265,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-switch text-warning fs-1"><span
+                                                        class="fa-solid fa-shuffle fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -297,7 +297,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-color-swatch text-success fs-1"><span
+                                                        class="fa-brands fa-discourse fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -348,7 +348,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="ki-duotone ki-truck text-info fs-1"><span
+                                                        class="fa-solid fa-truck fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -1897,7 +1897,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-rocket fs-2"><span
+                                            class="fa-solid fa-rocket fs-5 text-black-800"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Projects</span><span
@@ -1979,7 +1979,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-handcart fs-2"></i></span><span
+                                            class="fa-solid fa-cart-shopping fs-5"></i></span><span
                                         class="menu-title">eCommerce</span><span
                                         class="menu-arrow"></span></span><!--end:Menu link--><!--begin:Menu sub-->
                                 <div
@@ -2202,7 +2202,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-chart fs-2"><span
+                                            class="fa-solid fa-circle-notch fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Support
@@ -2316,7 +2316,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-shield-tick fs-2"><span
+                                            class="fa-solid fa-square-check fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">User
@@ -2405,7 +2405,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-phone fs-2"><span
+                                            class="fa-solid fa-mobile fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Contacts</span><span
@@ -2457,7 +2457,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-basket fs-2"><span
+                                            class="fa-solid fa-trash fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span><span
@@ -2511,7 +2511,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-briefcase fs-2"><span
+                                            class="fa-solid fa-bag-shopping fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Customers</span><span
@@ -2554,7 +2554,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-credit-cart fs-2"><span
+                                            class="fa-solid fa-file-invoice fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Invoice
@@ -2621,7 +2621,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-file-added fs-2"><span
+                                            class="fa-solid fa-file fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">File
@@ -2671,7 +2671,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-sms fs-2"><span
+                                            class="fa-solid fa-inbox fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Inbox</span><span
@@ -2715,7 +2715,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-message-text-2 fs-2"><span
+                                            class="fa-solid fa-comment fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span></i></span><span
@@ -2758,7 +2758,7 @@
                                     class="menu-link"
                                     href="apps/calendar.html"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-calendar-8 fs-2"><span
+                                            class="fa-solid fa-calendar fs-5"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span><span
@@ -2922,7 +2922,7 @@
                                     data-bs-dismiss="click"
                                     data-bs-placement="right"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-rocket fs-2"><span
+                                            class="fa-solid fa-rocket fs-5 text-black-800"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Components</span></a><!--end:Menu link--></div>
@@ -3461,7 +3461,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="ki-duotone ki-message-text-2 fs-2 text-primary"><span
+                                                        class="fa-solid fa-comment fs-5 text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span></i>
@@ -3606,7 +3606,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="ki-duotone ki-chart fs-2 text-primary"><span
+                                                        class="fa-solid fa-circle-notch fs-5 text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -3665,7 +3665,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="ki-duotone ki-sms fs-2 text-primary"><span
+                                                        class="fa-solid fa-inbox fs-5 text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -4287,7 +4287,7 @@
                                                 <span
                                                     class="symbol-label bg-light-warning">
                                                     <i
-                                                        class="ki-duotone ki-briefcase fs-2 text-warning"><span
+                                                        class="fa-solid fa-bag-shopping fs-5 text-warning"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
