@@ -133,7 +133,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-diagram-project fs-2"><span
+                                                        class="fa-solid fa-diagram-project fs-2 text-info"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -166,7 +166,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-boxes-stacked fs-2"><span
+                                                        class="fa-solid fa-boxes-stacked text-danger fs-2 fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -233,7 +233,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-fingerprint fs-2"><span
+                                                        class="fa-solid fa-fingerprint fs-2 text-success"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -265,7 +265,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-shuffle fs-2"><span
+                                                        class="fa-solid fa-shuffle fs-2 text-warning"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -297,7 +297,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-brands fa-discourse fs-2"><span
+                                                        class="fa-brands fa-discourse fs-2 text-sucess"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -348,7 +348,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-truck fs-2"><span
+                                                        class="fa-solid fa-truck fs-2 text-info"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -4203,7 +4203,7 @@
                                                 <span
                                                     class="symbol-label bg-light-primary">
                                                     <i
-                                                        class="fa-solid fa-user fs-2 text-primary"><span
+                                                        class="fa-solid fa-user  text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -5486,7 +5486,7 @@
                         class="btn btn-flex btn-icon btn-active-color-primary w-30px h-30px"
                         id="kt_app_header_menu_toggle">
                         <i
-                            class="fa-solid fa-boxes-stacked text-dark-700"><span
+                            class="fa-solid fa-boxes-stacked text-danger fs-2 text-dark-700"><span
                                 class="path1"></span><span
                                 class="path2"></span></i>
                     </div>
