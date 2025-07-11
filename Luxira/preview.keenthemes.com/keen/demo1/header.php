@@ -166,7 +166,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-boxes-stacked text-danger fs-2 fs-2"><span
+                                                        class="fa-solid fa-chart-simple"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
@@ -297,7 +297,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-brands fa-discourse fs-2 text-sucess"><span
+                                                        class="fa-brands fa-discourse fs-2 text-success"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
