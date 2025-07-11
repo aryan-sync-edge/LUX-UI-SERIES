@@ -1897,7 +1897,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-rocket fs-5 text-black-800"><span
+                                            class="fa-solid fa-rocket"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Projects</span><span
@@ -2202,7 +2202,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-circle-notch fs-5"><span
+                                            class="fa-solid fa-headset"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Support
@@ -2457,7 +2457,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-trash fs-5"><span
+                                            class="fa-solid fa-cart-shopping"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span><span
@@ -2554,7 +2554,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-file-invoice fs-5"><span
+                                            class="fa-solid 	fa-file-invoice"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Invoice
@@ -2671,7 +2671,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-inbox fs-5"><span
+                                            class="fa-solid fa-inbox"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Inbox</span><span
@@ -2715,7 +2715,7 @@
                                 class="menu-item menu-lg-down-accordion"><!--begin:Menu link--><span
                                     class="menu-link"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-comment fs-5"><span
+                                            class="fa-solid fa-comments"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span></i></span><span
@@ -2758,7 +2758,7 @@
                                     class="menu-link"
                                     href="apps/calendar.html"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-calendar fs-5"><span
+                                            class="fa-solid fa-calendar"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span><span
@@ -2922,7 +2922,7 @@
                                     data-bs-dismiss="click"
                                     data-bs-placement="right"><span
                                         class="menu-icon"><i
-                                            class="fa-solid fa-rocket fs-5 text-black-800"><span
+                                            class="fa-solid fa-rocket"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Components</span></a><!--end:Menu link--></div>
@@ -2938,7 +2938,7 @@
                                     data-bs-dismiss="click"
                                     data-bs-placement="right"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-abstract-26 fs-2"><span
+                                            class="fa-solid fa-file-lines"><span
                                                 class="path1"></span><span
                                                 class="path2"></span></i></span><span
                                         class="menu-title">Documentation</span></a><!--end:Menu link-->
@@ -2949,7 +2949,7 @@
                                     href="https://preview.keenthemes.com/html/keen/docs/getting-started/changelog"
                                     target="_blank"><span
                                         class="menu-icon"><i
-                                            class="ki-duotone ki-code fs-2"><span
+                                            class="fa-solid fa-code"><span
                                                 class="path1"></span><span
                                                 class="path2"></span><span
                                                 class="path3"></span><span
@@ -3461,7 +3461,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="fa-solid fa-comment fs-5 text-primary"><span
+                                                        class="fa-solid fa-comments text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span></i>
@@ -3606,7 +3606,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="fa-solid fa-circle-notch fs-5 text-primary"><span
+                                                        class="fa-solid fa-headset text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -3665,7 +3665,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="fa-solid fa-inbox fs-5 text-primary"><span
+                                                        class="fa-solid fa-inbox text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -3694,7 +3694,7 @@
                                                 <span
                                                     class="symbol-label bg-light">
                                                     <i
-                                                        class="ki-duotone ki-bank fs-2 text-primary"><span
+                                                        class="fa-solid fa-building-columns text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -4203,7 +4203,7 @@
                                                 <span
                                                     class="symbol-label bg-light-primary">
                                                     <i
-                                                        class="ki-duotone ki-abstract-28 fs-2 text-primary"><span
+                                                        class="fa-solid fa-user fs-2 text-primary"><span
                                                             class="path1"></span><span
                                                             class="path2"></span></i>
                                                 </span>
@@ -4457,7 +4457,7 @@
                                                 <span
                                                     class="symbol-label bg-light-warning">
                                                     <i
-                                                        class="ki-duotone ki-color-swatch fs-2 text-warning"><span
+                                                        class="fa-solid fa-swatchbook text-warning"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
