@@ -199,7 +199,7 @@
                                                 <span
                                                     class="menu-custom-icon d-flex flex-center flex-shrink-0 rounded w-40px h-40px me-3">
                                                     <i
-                                                        class="fa-solid fa-chart-simple fs-2"><span
+                                                        class="fa-solid fa-chart-simple fs-2"><span
                                                             class="path1"></span><span
                                                             class="path2"></span><span
                                                             class="path3"></span><span
