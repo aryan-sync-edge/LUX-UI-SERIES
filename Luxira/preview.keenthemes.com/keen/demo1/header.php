@@ -2914,7 +2914,7 @@
                             <div
                                 class="menu-item"><!--begin:Menu link--><a
                                     class="menu-link"
-                                    href="https://preview.keenthemes.com/html/keen/docs/base/utilities"
+                                    href="https://preview.Luxriathemes.com/html/Luxria/docs/base/utilities"
                                     target="_blank"
                                     title="Check out over 200 in-house components, plugins and ready for use solutions"
                                     data-bs-toggle="tooltip"
@@ -2930,7 +2930,7 @@
                             <div
                                 class="menu-item"><!--begin:Menu link--><a
                                     class="menu-link"
-                                    href="https://preview.keenthemes.com/html/keen/docs"
+                                    href="https://preview.Luxriathemes.com/html/Luxria/docs"
                                     target="_blank"
                                     title="Check out the complete documentation"
                                     data-bs-toggle="tooltip"
@@ -2946,7 +2946,7 @@
                             <div
                                 class="menu-item"><!--begin:Menu link--><a
                                     class="menu-link"
-                                    href="https://preview.keenthemes.com/html/keen/docs/getting-started/changelog"
+                                    href="https://preview.Luxriathemes.com/html/Luxria/docs/getting-started/changelog"
                                     target="_blank"><span
                                         class="menu-icon"><i
                                             class="fa-solid fa-code"><span
@@ -3559,7 +3559,7 @@
                                                 <a href="#"
                                                     class="fs-6 text-gray-800 text-hover-primary fw-semibold">BoomApp
                                                     by
-                                                    Keenthemes</a>
+                                                    Luxriathemes</a>
                                                 <span
                                                     class="fs-7 text-muted fw-semibold">#45789</span>
                                             </div>
