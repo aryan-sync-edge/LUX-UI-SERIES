@@ -5290,7 +5290,7 @@
                                             data-bs-toggle="tooltip"
                                             title="View your statements">
                                             <i
-                                                class="ki-duotone ki-information-5 fs-5"><span
+                                                class=" fas fa-info-circle fs-5"><span
                                                     class="path1"></span><span
                                                     class="path2"></span><span
                                                     class="path3"></span></i>
