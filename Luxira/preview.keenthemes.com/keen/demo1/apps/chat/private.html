@@ -4978,7 +4978,7 @@ License: For each use you must have a valid license purchased only from above li
                         <i class="ki-duotone ki-magnifier fs-2 fs-lg-1 text-gray-500 position-absolute top-50 ms-5 translate-middle-y"><span class="path1"></span><span class="path2"></span></i>                        <!--end::Icon-->
 
                         <!--begin::Input-->
-                        <input type="text" class="form-control form-control-lg form-control-solid px-15" name="search" value="" placeholder="Search by username, full name or email..." data-kt-search-element="input"/>
+                        <input type="text" id="custom-searchbyusername-search" class="form-control form-control-lg form-control-solid px-15" name="search" value="" placeholder="Search by username, full name or email..." data-kt-search-element="input"/>
                         <!--end::Input-->
 
                         <!--begin::Spinner-->
@@ -10270,6 +10270,23 @@ License: For each use you must have a valid license purchased only from above li
     <!--end::Modal dialog-->
 </div>
 <!--end::Modal - Invite Friend-->            <!--end::Modals-->
+<script>
+// Simple client-side search for the user table
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('custom-searchbyusername-search');
+  var table = document.getElementById('kt_app_content');
+  if (searchInput && table) {
+    searchInput.addEventListener('keyup', function() {
+      var filter = searchInput.value.toLowerCase();
+      var rows = table.getElementsByTagName('tr');
+      for (var i = 1; i < rows.length; i++) { // skip header row
+        var rowText = rows[i].textContent.toLowerCase();
+        rows[i].style.display = rowText.indexOf(filter) > -1 ? '' : 'none';
+      }
+    });
+  }
+});
+</script>
         
         <!--begin::Javascript-->
         <script>

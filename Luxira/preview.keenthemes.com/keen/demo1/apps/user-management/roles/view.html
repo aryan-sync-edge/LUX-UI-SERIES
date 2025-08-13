@@ -4157,7 +4157,7 @@ License: For each use you must have a valid license purchased only from above li
             <!--begin::Search-->
             <div class="position-relative w-100 d-flex align-items-center justify-content-center  rounded-3 bg-white" style="border: 1px solid rgba(0, 0, 0, 0.099);">
                     <i class="fa-solid fa-magnifying-glass fs-3 ps-4 text-primary"><span class="path1"></span><span class="path2"></span></i>
-                    <input type="text" class="form-control border-0 fs-4 py-4 ps-3 text-gray-700 placeholder-gray-500 " name="search" value="" placeholder="Search"/>
+                    <input type="text" id="custom-user-search" class="form-control border-0 fs-4 py-4 ps-3 text-gray-700 placeholder-gray-500 " name="search" value="" placeholder="Search"/>
                 </div>
             <!--end::Search-->
 
@@ -10264,6 +10264,24 @@ License: For each use you must have a valid license purchased only from above li
     <!--end::Modal dialog-->
 </div>
 <!--end::Modal - Invite Friend-->            <!--end::Modals-->
+
+<script>
+// Simple client-side search for the user table
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('custom-user-search');
+  var table = document.getElementById('kt_roles_view_table');
+  if (searchInput && table) {
+    searchInput.addEventListener('keyup', function() {
+      var filter = searchInput.value.toLowerCase();
+      var rows = table.getElementsByTagName('tr');
+      for (var i = 1; i < rows.length; i++) { // skip header row
+        var rowText = rows[i].textContent.toLowerCase();
+        rows[i].style.display = rowText.indexOf(filter) > -1 ? '' : 'none';
+      }
+    });
+  }
+});
+</script>
         
         <!--begin::Javascript-->
         <script>
